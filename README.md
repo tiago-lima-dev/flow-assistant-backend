@@ -118,7 +118,7 @@ Ferramentas expostas pela IA (`ToolCatalog`):
 
 | Tool | Parâmetros | O que faz |
 |---|---|---|
-| `list_rooms` |, | Lista salas ativas (nome, capacidade, localização, equipamentos) |
+| `list_rooms` | (nenhum) | Lista salas ativas (nome, capacidade, localização, equipamentos) |
 | `check_room_availability` | `room_name`, `date`, `start_time`, `end_time` | Verifica se a sala está livre no intervalo |
 | `create_booking` | `room_name`, `date`, `start_time`, `end_time`, `attendees_count?`, `purpose?` | Cria a reserva, só depois do usuário confirmar os dados |
 
